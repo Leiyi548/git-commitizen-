@@ -103,3 +103,21 @@ Closes `#234`
 也可以一次关闭多个 issue 。
 
 Closes `#123`, `#245`, `#992`
+
+## 5. 生成 Change log
+
+如果你的所有 Commit 都符合 Angular 格式，那么发布新版本时， Change log 就可以用脚本自动生成
+
+生成的文档包括以下三个部分。
+
+- New feature
+- Bug fixes
+- Breaking changes
+
+每个部分都会罗列相关的 commit ，并且有指向这些 commit 的链接。当然，生成的文档允许手动修改，所以发布前，你还可以添加其他内容。
+
+现在不需要我没有大项目，学习这个不值得。
+
+## 6. 参考文章
+
+[git commit 规范 、CHANGELOG 生成 和版本发布的标准自动化(https://blog.csdn.net/wyhbest/article/details/122789174)
